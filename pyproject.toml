@@ -1,0 +1,14 @@
+[project]
+name = "comfyui_minimaxh3_totalmerger"
+description = "MiniMax H3 merger for ComfyUI: merge two models (INT8 ConvRot or bf16) by block groups, bake LoRAs, and save as bf16, INT8, W6A8 or W4A8 (with HQ variants)."
+version = "1.11.0"
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/tritant/ComfyUI_MinimaxH3_TotalMerger"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "tritant"
+DisplayName = "MinimaxH3 TotalMerger"
+Icon = ""
